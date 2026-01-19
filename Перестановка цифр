@@ -1,0 +1,5 @@
+x = int(input())
+c = x % 10
+b = (x // 10) % 10
+a = x // 100
+print(a, b, c, "\n", a, c, b, "\n", b, a, c, "\n", b, c, a, "\n", c, a, b, "\n", c, b, a, sep="")
